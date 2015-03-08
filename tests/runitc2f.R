@@ -6,3 +6,7 @@
 testZeroCelsius <- function() {
   checkEquals( 32, c2f(0) )
 }
+
+test35Celsuis <- function() {
+  checkEquals(95, c2f(35))
+}
