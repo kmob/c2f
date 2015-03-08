@@ -10,3 +10,7 @@ testZeroCelsius <- function() {
 test35Celsuis <- function() {
   checkEquals(95, c2f(35))
 }
+
+testStringCelsus <- function() {
+  checkException(c2f('x'))
+}
